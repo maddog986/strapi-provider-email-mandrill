@@ -1,0 +1,41 @@
+{
+  "name": "strapi-provider-email-mandrill",
+  "version": "1.0.0",
+  "description": "Mandrill Email service provider for Strapi",
+  "license": "MIT",
+  "author": {
+    "name": "Drew Gauderman",
+    "email": "drew@dpg.host"
+  },
+  "homepage": "https://dpg.host",
+  "keywords": [
+    "strapi",
+    "email",
+    "provider",
+    "mandrill"
+  ],
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "nodemailer": "6.5.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maddog986/strapi-provider-email-mandrill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maddog986/strapi-provider-email-mandrill/issues"
+  }
+}
