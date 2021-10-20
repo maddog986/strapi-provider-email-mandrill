@@ -16,12 +16,14 @@ You need to have the plugin `strapi-plugin-email` installed in you Strapi projec
 
 ## Installation
 
+Because im publishing this package as @maddog986, you have to alias the package name for Strapi to pickup the plugin correctly.
+
 ```bash
 # using yarn
-yarn add @maddog986/strapi-provider-email-mandrill
+yarn add strapi-provider-email-mandrill@maddog986/strapi-provider-email-mandrill
 
 # using npm
-npm install @maddog986/strapi-provider-email-mandrill --save
+npm install strapi-provider-email-mandrill@maddog986/strapi-provider-email-mandrill --save
 ```
 
 ## Configuration
