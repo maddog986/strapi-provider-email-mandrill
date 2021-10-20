@@ -44,7 +44,7 @@ npm install @maddog986/strapi-provider-email-mandrill --save
 module.exports = ({ env }) => ({
   // ...
   email: {
-    provider: 'hyak',
+    provider: 'mandrill',
     providerOptions: {
       apiKey: env('MANDRILL_KEY', ''),
       apiUsername: env('MANDRILL_USERNAME', '')
