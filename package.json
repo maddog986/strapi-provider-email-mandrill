@@ -1,5 +1,5 @@
 {
-  "name": "strapi-provider-email-mandrill",
+  "name": "@maddog986/strapi-provider-email-mandrill",
   "version": "1.0.0",
   "description": "Mandrill Email service provider for Strapi",
   "license": "MIT",
